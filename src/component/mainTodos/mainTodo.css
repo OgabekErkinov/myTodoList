@@ -1,0 +1,37 @@
+.mainTodo_container{
+    height: 90%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+    padding-bottom: 1rem;
+    padding-right: 2rem;
+}
+table{
+    width: 100%;
+    padding: 0 5px;
+    color: rgb(117, 76, 76);
+    
+}
+td{
+    border: 0.5px solid rgb(117, 76, 76);
+
+}
+.clearTodos{
+    height: 2rem;
+    width: 3rem;
+    position: absolute;
+    bottom: 10px;
+    right: -4rem;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(94, 56, 56);
+    box-shadow: 0 0 2px 3px rgb(94, 56, 56);
+    transition: 0.4s;
+    color: rgb(214, 203, 203);
+    font-weight: 700;
+}
+.clearTodos:active{
+    box-shadow: none;
+    transition: 0.4s;
+}
